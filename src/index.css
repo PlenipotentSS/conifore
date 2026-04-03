@@ -67,7 +67,7 @@ img { display: block; max-width: 100%; }
 
 .logo-mobile {
   height: 42px;
-  padding-right: 4px;
+  margin-right: 4px;
   border-radius: 3px;
 }
 
