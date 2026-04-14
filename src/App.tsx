@@ -1,39 +1,20 @@
+import { useState, useEffect } from 'react'
 import './index.css'
+import { Header, Footer } from './Layout'
+import PrivacyPage from './PrivacyPage'
+import TermsPage from './TermsPage'
 
 // Update this URL with your Google Calendar appointment scheduling link
 const SCHEDULE_URL = 'https://calendar.app.google/tE13E3ksGHep8Ek29'
 
-function Header() {
-  return (
-    <header className="header">
-      <a href="#hero" className="header-logo" aria-label="Conifore — Home">
-        {/* Mobile: tree icon mark */}
-        <img
-          src="/Conifore-noname.png"
-          alt="Conifore"
-          className="logo-mobile"
-        />
-        {/* Desktop: full wordmark (dark background baked in, seamless) */}
-        <img
-          src="/Conifore-nameonly.png"
-          alt="Conifore"
-          className="logo-desktop"
-        />
-      </a>
-
-      <nav aria-label="Primary navigation">
-        <ul className="header-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#history">History</a></li>
-          <li><a href="#partner">Partner With Us</a></li>
-        </ul>
-      </nav>
-
-      <a href="#partner" className="btn btn-outline-cream">
-        Get in Touch
-      </a>
-    </header>
-  )
+function useCurrentPath() {
+  const [path, setPath] = useState(window.location.pathname)
+  useEffect(() => {
+    const handler = () => setPath(window.location.pathname)
+    window.addEventListener('popstate', handler)
+    return () => window.removeEventListener('popstate', handler)
+  }, [])
+  return path
 }
 
 function Hero() {
@@ -99,7 +80,6 @@ function About() {
 
           <div>
             <div className="contact-card" role="complementary" aria-label="Principal contact">
-              {/* Update with the principal's name */}
               <h3 className="contact-card-name">Steven Stevenson</h3>
               <p className="contact-card-title">Founder &amp; Managing Principal</p>
 
@@ -238,47 +218,7 @@ function Partner() {
   )
 }
 
-function Footer() {
-  const year = new Date().getFullYear()
-
-  return (
-    <footer className="footer">
-      <div className="footer-inner">
-        <div className="footer-top">
-          <a href="#hero" className="footer-logo" aria-label="Conifore — Home">
-            <img src="/Conifore-nameonly.png" alt="Conifore" />
-          </a>
-
-          <nav aria-label="Footer navigation">
-            <ul className="footer-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#history">History</a></li>
-              <li><a href="#partner">Partner With Us</a></li>
-              <li>
-                <a href="mailto:contact@conifore.com">
-                  contact@conifore.com
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div className="footer-bottom">
-          <p className="footer-copy">
-            &copy; {year} Conifore. All rights reserved.
-          </p>
-          <div className="footer-email">
-            <a href="https://www.conifore.com" target="_blank" rel="noreferrer">
-              www.conifore.com
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  )
-}
-
-export default function App() {
+function HomePage() {
   return (
     <>
       <Header />
@@ -291,4 +231,13 @@ export default function App() {
       <Footer />
     </>
   )
+}
+
+export default function App() {
+  const path = useCurrentPath()
+
+  if (path === '/privacy') return <PrivacyPage />
+  if (path === '/terms')   return <TermsPage />
+
+  return <HomePage />
 }
