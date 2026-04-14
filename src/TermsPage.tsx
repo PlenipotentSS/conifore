@@ -110,14 +110,38 @@ export default function TermsPage() {
             <li>Document access for executed loan agreements and payment records</li>
           </ul>
 
-          <p className="legal-h3">3b. Plaid Integration</p>
+          <p className="legal-h3">3b. Third-Party Payment Services — Plaid and ACH Processors</p>
           <p>
-            The Platform uses Plaid Inc. to facilitate bank account verification and connection. When
-            you use Plaid Link within the Platform, you are also subject to{' '}
-            <a href="https://plaid.com/legal/end-user-privacy-policy/" target="_blank" rel="noreferrer">
-              Plaid's End User Privacy Policy
-            </a>. Conifore is not responsible for Plaid's services, availability, or practices. Your
-            use of Plaid is at your own risk, subject to Plaid's terms.
+            The Platform uses two categories of third-party services to facilitate bank account
+            verification and ACH payment processing:
+          </p>
+          <ul>
+            <li>
+              <strong>Plaid Inc.</strong> — Used to verify and connect your bank account. When you use
+              Plaid Link within the Platform, you are also subject to{' '}
+              <a href="https://plaid.com/legal/end-user-privacy-policy/" target="_blank" rel="noreferrer">
+                Plaid's End User Privacy Policy
+              </a>. Plaid retrieves your bank account and routing numbers and account holder identity
+              on Conifore's behalf. Conifore is not responsible for Plaid's services, availability,
+              or data practices.
+            </li>
+            <li>
+              <strong>Stripe, Inc., or other ACH processors</strong> — Used to execute ACH debit
+              transactions against your verified bank account for monthly interest payment collection.
+              Conifore may use Stripe or an alternative ACH processor based on commercial or business
+              banking needs at the time of processing. By authorizing ACH debits through the Platform,
+              you acknowledge that payment processing is performed by the applicable processor and is
+              subject to that processor's privacy policy and terms of service. Conifore transmits your
+              bank routing number, account number, and payment amount to the applicable processor
+              solely for the purpose of executing authorized debits. Conifore is not responsible for
+              any processor's services, availability, or practices.
+            </li>
+          </ul>
+          <p>
+            Your use of Plaid and any ACH processor through the Platform is at your own risk and
+            subject to each provider's respective terms and policies. Conifore is not liable for any
+            failure, delay, error, or data incident caused by or attributable to Plaid or any
+            third-party payment processor.
           </p>
 
           <p className="legal-h3">3c. Service Availability</p>

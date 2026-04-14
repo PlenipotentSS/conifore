@@ -162,9 +162,9 @@ export default function PrivacyPage() {
                 <td>Borrower identity, bank credentials (via Link)</td>
               </tr>
               <tr>
-                <td>ACH Payment Processor</td>
-                <td>Executing interest payment debits</td>
-                <td>Routing and account numbers, payment amount</td>
+                <td>Stripe, Inc. or other ACH processors based on commercial or business banking needs</td>
+                <td>ACH debit execution for monthly interest payment collection</td>
+                <td>Bank routing number, account number, payment amount</td>
               </tr>
               <tr>
                 <td>Google Cloud Platform</td>
