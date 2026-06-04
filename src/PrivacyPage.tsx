@@ -22,9 +22,10 @@ export default function PrivacyPage() {
 
           <div className="legal-summary">
             <p>
-              <strong>Plain-language summary:</strong> Conifore LLC is a commercial lending company.
-              We collect financial and identity information from borrowers to originate and service
-              loans and to process interest payments. We use Plaid to verify your bank account. We do
+              <strong>Plain-language summary:</strong> Conifore LLC is a commercial lending company
+              that lends only for business, commercial, or agricultural purposes. We collect financial
+              and identity information from borrowers to originate and service loans and to process
+              interest payments. We use Plaid to verify your bank account. We do
               not sell your data. You have rights to access, correct, and request deletion of your
               information. For questions, contact us at{' '}
               <a href="mailto:privacy@conifore.com">privacy@conifore.com</a>.
@@ -36,7 +37,11 @@ export default function PrivacyPage() {
           <p>
             Conifore LLC ("Conifore," "we," "us," or "our") is a commercial lending company organized
             under the laws of the State of Washington, with its principal place of business in Issaquah,
-            Washington. This Privacy Policy describes how we collect, use, store, share, and protect
+            Washington. Conifore originates loans solely for business, commercial, or agricultural
+            purposes, and no loan it makes is secured by a lien on the borrower's principal dwelling.
+            Conifore therefore operates under the business-purpose exemption at RCW 31.04.025(4)(e)
+            (certified July 12, 2024) and is not a consumer lender. This Privacy Policy describes how we collect, use, store, share,
+            and protect
             information about borrowers, guarantors, authorized representatives, and users of the
             Conifore borrower portal located at <strong>app.conifore.com</strong> (the "Platform").
           </p>
@@ -259,7 +264,8 @@ export default function PrivacyPage() {
             To exercise any of these rights, submit a written request to{' '}
             <a href="mailto:privacy@conifore.com">privacy@conifore.com</a>. We will respond within 30
             days. We may require identity verification before processing your request. Note that certain
-            rights may be limited by our legal obligations as a regulated lender.
+            rights may be limited by our legal and regulatory recordkeeping obligations as a commercial
+            lender.
           </p>
 
           {/* ── 9 ── */}
@@ -284,8 +290,10 @@ export default function PrivacyPage() {
           {/* ── 11 ── */}
           <h2 className="legal-h2">11. GLBA Notice</h2>
           <p>
-            As a financial institution subject to the Gramm-Leach-Bliley Act (GLBA), Conifore LLC is
-            required to explain how we collect, share, and protect your financial information. This
+            Although Conifore lends only for business, commercial, or agricultural purposes and is not
+            a consumer lender, the Gramm-Leach-Bliley Act (GLBA) is a separate federal privacy regime
+            that can apply to entities engaged in financial activities. To the extent GLBA applies,
+            Conifore explains here how we collect, share, and protect financial information, and this
             Privacy Policy serves as our GLBA privacy notice. We do not share your nonpublic personal
             information with nonaffiliated third parties for marketing purposes. We share it only as
             described in Section 5 of this Policy for the purpose of servicing your loan and complying

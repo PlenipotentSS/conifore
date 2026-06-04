@@ -25,8 +25,10 @@ export default function TermsPage() {
               <strong>Plain-language summary:</strong> These Terms govern your use of the Conifore
               borrower portal. By accessing the portal or entering into a loan with Conifore, you agree
               to these Terms. Key points: you must provide accurate information, you authorize ACH debits
-              for interest payments, the portal is for commercial borrowers only, and your loan agreement
-              governs all lending terms. Please read this carefully.
+              for interest payments, the portal is for business-purpose commercial borrowers only, and
+              your loan agreement governs all lending terms. Conifore lends only for business,
+              commercial, or agricultural purposes and does not make consumer loans. Please read this
+              carefully.
             </p>
           </div>
 
@@ -70,8 +72,24 @@ export default function TermsPage() {
           </ul>
           <p>
             The Platform is not available for consumer or personal use. All loans originated by
-            Conifore are commercial loans governed by applicable commercial lending laws.
+            Conifore are made primarily for business, commercial, or agricultural purposes and are
+            governed by applicable commercial lending laws.
           </p>
+
+          <div className="legal-warning">
+            <p>
+              <strong>Business-purpose lending only.</strong> Conifore originates loans solely for
+              business, commercial, or agricultural purposes. Conifore does not make loans for
+              personal, family, or household use, and no loan originated by Conifore is or will be
+              secured by a lien on the borrower's principal dwelling. Accordingly, Conifore operates
+              under the business-purpose exemption set forth at RCW 31.04.025(4)(e) (certified
+              July 12, 2024) and is not a consumer lender licensed or regulated under Washington's
+              Consumer Loan Act. By using
+              the Platform, you represent that any loan you enter into with Conifore is for a
+              business, commercial, or agricultural purpose and is not secured by your principal
+              dwelling.
+            </p>
+          </div>
 
           <p className="legal-h3">2b. Account Creation</p>
           <p>
@@ -91,11 +109,12 @@ export default function TermsPage() {
 
           <p className="legal-h3">2c. Identity Verification (KYC)</p>
           <p>
-            As a regulated financial institution, Conifore is required by law to verify the identity of
-            all borrowers and authorized representatives. By creating an account, you consent to
-            Conifore performing identity verification, AML screening, and government watchlist checks
-            using your provided information. Failure to pass verification will result in denial of
-            access to the Platform and loan services.
+            Consistent with applicable anti-money-laundering and sanctions requirements (including the
+            Bank Secrecy Act and OFAC obligations) and Conifore's own onboarding policies, Conifore
+            verifies the identity of all borrowers and authorized representatives. By creating an
+            account, you consent to Conifore performing identity verification, AML screening, and
+            government watchlist checks using your provided information. Failure to pass verification
+            will result in denial of access to the Platform and loan services.
           </p>
 
           {/* ── 3 ── */}
