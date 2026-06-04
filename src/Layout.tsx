@@ -50,9 +50,19 @@ export function Header() {
         </ul>
       </nav>
 
-      <a href="/#partner" className="btn btn-outline-cream">
-        Get in Touch
-      </a>
+      <div className="header-actions">
+        <a href="/#partner" className="btn btn-outline-cream">
+          Get in Touch
+        </a>
+        <a
+          href="https://app.conifore.com"
+          className="btn btn-cream"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Log In
+        </a>
+      </div>
     </header>
   )
 }

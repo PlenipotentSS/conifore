@@ -54,6 +54,13 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid var(--muted-faint);
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
 .header-logo {
   text-decoration: none;
   display: flex;
@@ -499,6 +506,9 @@ img { display: block; max-width: 100%; }
   .logo-mobile  { display: block; }
 
   .header-nav { display: none; }
+
+  .header-actions { gap: 0.5rem; }
+  .header-actions .btn { padding: 0.6rem 1.1rem; font-size: 0.72rem; }
 
   .section { padding: 4.5rem 1.5rem; }
   .hero { padding: 7rem 1.5rem 4rem; }
