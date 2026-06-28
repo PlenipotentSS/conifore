@@ -153,11 +153,11 @@ export default function PrivacyPage() {
 
           <p className="legal-h3">5a. Service Providers</p>
           <p>
-            Conifore may initiate ACH debits and manage payment authorization directly, or it may use
-            third-party bank account verification, payment verification, and payment acceptance systems.
-            Where third-party providers are used, they currently include those listed below; Conifore
-            may add, change, or discontinue any provider at any time based on its commercial or business
-            banking needs.
+            Conifore may initiate ACH debits and manage payment authorization directly, through its
+            affiliate Sweet AS Home, LLC, or through third-party bank account verification, payment
+            verification, and payment acceptance systems. The providers currently used are listed
+            below; Conifore may add, change, or discontinue any provider at any time based on its
+            commercial or business banking needs.
           </p>
           <table className="legal-table">
             <thead>
@@ -174,8 +174,8 @@ export default function PrivacyPage() {
                 <td>Borrower identity, bank credentials (via Link)</td>
               </tr>
               <tr>
-                <td>Stripe, Inc. or other ACH processors based on commercial or business banking needs</td>
-                <td>ACH debit execution for monthly interest payment collection</td>
+                <td>Sweet AS Home, LLC (Conifore affiliate)</td>
+                <td>Managing and executing ACH debits for monthly interest payment collection</td>
                 <td>Bank routing number, account number, payment amount</td>
               </tr>
               <tr>

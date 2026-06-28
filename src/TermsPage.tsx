@@ -129,13 +129,13 @@ export default function TermsPage() {
             <li>Document access for executed loan agreements and payment records</li>
           </ul>
 
-          <p className="legal-h3">3b. Payment Processing — Direct and Third-Party Services</p>
+          <p className="legal-h3">3b. Payment Processing — Direct, Affiliate, and Third-Party Services</p>
           <p>
-            Conifore may initiate ACH debits and manage payment authorization directly, or it may use
-            third-party bank account verification, payment verification, and payment acceptance systems
-            to do so. Conifore may add, change, or discontinue any such provider at any time based on
-            its commercial or business banking needs. Where third-party services are used, they
-            currently include the following:
+            Conifore may initiate ACH debits and manage payment authorization directly, through its
+            affiliate <strong>Sweet AS Home, LLC</strong>, or through third-party bank account
+            verification, payment verification, and payment acceptance systems. Conifore may add,
+            change, or discontinue any such provider at any time based on its commercial or business
+            banking needs. The providers currently used include the following:
           </p>
           <ul>
             <li>
@@ -148,15 +148,15 @@ export default function TermsPage() {
               or data practices.
             </li>
             <li>
-              <strong>Stripe, Inc., or other ACH processors</strong> — Used to execute ACH debit
-              transactions against your verified bank account for monthly interest payment collection.
-              Conifore may use Stripe or an alternative ACH processor based on commercial or business
-              banking needs at the time of processing. By authorizing ACH debits through the Platform,
-              you acknowledge that payment processing is performed by the applicable processor and is
-              subject to that processor's privacy policy and terms of service. Conifore transmits your
-              bank routing number, account number, and payment amount to the applicable processor
-              solely for the purpose of executing authorized debits. Conifore is not responsible for
-              any processor's services, availability, or practices.
+              <strong>Sweet AS Home, LLC</strong> — Conifore's affiliate, which manages and executes
+              ACH debit transactions against your verified bank account for monthly interest payment
+              collection. Conifore transmits your bank routing number, account number, and payment
+              amount to Sweet AS Home, LLC solely for the purpose of executing authorized debits.
+              Sweet AS Home, LLC may in turn use an underlying ACH processor or financial institution
+              to settle transactions. By authorizing ACH debits through the Platform, you acknowledge
+              that payment processing may be performed by Conifore directly, by Sweet AS Home, LLC, or
+              by an applicable third-party processor based on commercial or business banking needs at
+              the time of processing.
             </li>
           </ul>
           <p>
