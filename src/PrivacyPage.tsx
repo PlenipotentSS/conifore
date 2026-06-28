@@ -152,6 +152,13 @@ export default function PrivacyPage() {
           </p>
 
           <p className="legal-h3">5a. Service Providers</p>
+          <p>
+            Conifore may initiate ACH debits and manage payment authorization directly, or it may use
+            third-party bank account verification, payment verification, and payment acceptance systems.
+            Where third-party providers are used, they currently include those listed below; Conifore
+            may add, change, or discontinue any provider at any time based on its commercial or business
+            banking needs.
+          </p>
           <table className="legal-table">
             <thead>
               <tr>
@@ -185,7 +192,9 @@ export default function PrivacyPage() {
           </table>
           <p>
             All service providers are bound by data processing agreements requiring them to protect
-            your information and use it only for the specified purpose.
+            your information and use it only for the specified purpose. If you have any questions about
+            how your payments are processed, email{' '}
+            <a href="mailto:support@conifore.com">support@conifore.com</a>.
           </p>
 
           <p className="legal-h3">5b. Legal Requirements</p>

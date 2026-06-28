@@ -129,10 +129,13 @@ export default function TermsPage() {
             <li>Document access for executed loan agreements and payment records</li>
           </ul>
 
-          <p className="legal-h3">3b. Third-Party Payment Services — Plaid and ACH Processors</p>
+          <p className="legal-h3">3b. Payment Processing — Direct and Third-Party Services</p>
           <p>
-            The Platform uses two categories of third-party services to facilitate bank account
-            verification and ACH payment processing:
+            Conifore may initiate ACH debits and manage payment authorization directly, or it may use
+            third-party bank account verification, payment verification, and payment acceptance systems
+            to do so. Conifore may add, change, or discontinue any such provider at any time based on
+            its commercial or business banking needs. Where third-party services are used, they
+            currently include the following:
           </p>
           <ul>
             <li>
@@ -157,10 +160,12 @@ export default function TermsPage() {
             </li>
           </ul>
           <p>
-            Your use of Plaid and any ACH processor through the Platform is at your own risk and
-            subject to each provider's respective terms and policies. Conifore is not liable for any
-            failure, delay, error, or data incident caused by or attributable to Plaid or any
-            third-party payment processor.
+            Where third-party services are used, your use of Plaid and any payment processor through
+            the Platform is at your own risk and subject to each provider's respective terms and
+            policies. Conifore is not liable for any failure, delay, error, or data incident caused by
+            or attributable to Plaid or any third-party payment verification or payment acceptance
+            provider. If you have any questions about how your payments are processed, email{' '}
+            <a href="mailto:support@conifore.com">support@conifore.com</a>.
           </p>
 
           <p className="legal-h3">3c. Service Availability</p>
