@@ -312,10 +312,24 @@ export default function PrivacyPage() {
           {/* ── 12 ── */}
           <h2 className="legal-h2">12. Cookies and Tracking</h2>
           <p>
-            The Conifore borrower portal uses session cookies strictly necessary for authentication and
-            security. We do not use third-party advertising cookies, behavioral tracking, or analytics
-            services that share data with third parties. You may disable cookies in your browser
-            settings, but doing so may impair portal functionality.
+            <strong>Conifore applications.</strong> Within the Conifore borrower portal and any other
+            authenticated Conifore application, we use only session cookies strictly necessary for
+            authentication and security. We do not use third-party advertising cookies, behavioral
+            tracking, or analytics services that share data with third parties in these applications.
+            You may disable cookies in your browser settings, but doing so may impair portal
+            functionality.
+          </p>
+          <p>
+            <strong>Public marketing pages.</strong> Our public marketing website (including
+            www.conifore.com) may use third-party analytics services, such as Google Analytics, to
+            understand how visitors find and use the site. These services may set cookies and collect
+            usage information (for example, pages viewed, approximate location, and device or browser
+            type) and may share that information with the analytics provider. This tracking applies
+            only to our public marketing pages and never to the authenticated Conifore applications
+            described above. You can opt out of Google Analytics using the{' '}
+            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noreferrer">
+              Google Analytics Opt-out Browser Add-on
+            </a>{' '}or by disabling cookies in your browser.
           </p>
 
           {/* ── 13 ── */}
